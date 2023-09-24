@@ -19,7 +19,7 @@ public class RegistrationFormTest {
     static void beforeAll() {
         Configuration.baseUrl = "https://app.qa.guru";
         Configuration.browserSize = "1920x1080";
-        Configuration.holdBrowserOpen = true;
+//        Configuration.holdBrowserOpen = true;
     }
 
     @Test
