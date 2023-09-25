@@ -35,8 +35,6 @@ public class RegistrationFormTest {
         $("[value=Sports]").click();
         $("[value=Reading]").click();
 
-        $("[aria-label='Choose date']").click();
-
         $(byText("Subjects")).parent().click();
         $(byText("Science")).click();
         $(byText("Maths")).click();
@@ -48,7 +46,7 @@ public class RegistrationFormTest {
         $("button[type=submit]").scrollIntoView(true);
 
         $("[aria-label='Choose date']").click();
-        $("#\\:r9\\:-grid-label").click();
+        $("#\\:r8\\:-grid-label").click();
         $(byText("1991")).click();
         $("[aria-label='Next month']").click();
         $("[aria-label='Next month']").click();
